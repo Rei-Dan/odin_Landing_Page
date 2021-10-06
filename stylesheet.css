@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+/* #HEADER# */
+
+header {
+  background-color: #1f2937;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+  /* display: inline; */
+}
+
+.header-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* #First Article# */
+
+.first-article {
+  background-color: #1f2937;
+  padding: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.first-article h1 {
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+.first-article p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.placeholder-image {
+  width: 400px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.signup-top {
+  background-color: #3882f6;
+  padding: 5px 30px;
+  color: #e5e7eb;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* #RANDOM ARTICLE# */
+.random-article h2 {
+  color: #1f2937;
+  font-size: 36px;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.random-article img {
+  border: 3px #3882f6 solid;
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+}
+
+.random-article p {
+  text-align: center;
+}
+
+.random-img {
+  width: 150px;
+  text-align: center;
+}
+
+.img-block {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* #QUOTE BLOCK# */
+.quote-block {
+  background-color: #e5e7eb;
+  padding: 80px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-size: 18px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: end;
+}
+
+/* CALL-TO-ACTION */
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.call-to-action-blue {
+  background-color: #3882f6;
+  padding: 40px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.cta-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.cta-text :first-child {
+  font-weight: bold;
+}
+
+.signup-botom {
+  margin-left: 80px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 0 35px;
+  font-weight: bold;
+}
+
+/* #FOOTER# */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+}
